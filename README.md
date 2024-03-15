@@ -1,12 +1,16 @@
-# CPA: Smart-Link: Sellers <-> Users
+# CPA: Smart-Link
 
+### Offers - Clients
 The former have a product (website, app, web service) and money.
 The latter have traffic (users) and channels to attract it.
 We help both to find each other.
 
+1. Random Sampler
+2. Greedy Sampler
+3. ε-Greedy Sampler
+4. UCB / Thompson sampling
 
 ## Smart Campaign
-
 
 Smart-Link is a machine learning service that allows you to select a wide group of offers and automatically identify those that will convert best (and/or bring the most money) for the given traffic. Accordingly, an arbitrageur directs his traffic not to 1 specific offer, but to several of them at once.
 
