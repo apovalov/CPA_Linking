@@ -1,24 +1,16 @@
-# Smart-Link: ε-Greedy
-
-It was about an affiliate network. An affiliate (the same as affiliate program/platform/affiliate agency/affiliate network) is an intermediary between advertisers and traffic arbitrageurs.
+# CPA: Smart-Link: Sellers <-> Users
 
 The former have a product (website, app, web service) and money.
 The latter have traffic (users) and channels to attract it.
 We help both to find each other.
 
-CPA-platform (cost-per-action), i.e. we pay arbitrageurs for action (for making the desired action) - not for transitions, not for views, but for purchases/subscriptions/registrations, etc., which are set when an advertiser creates an offer on our platform.
-
 
 ## Smart Campaign
-A traffic arbitrageur logs into our platform to choose an offerer to which he will pour traffic. Having selected an offer, he starts a campaign and receives a special link. By clicking on this link, users are redirected to the selected offer and then, when the user performs certain actions on the site, the link will store information about the source from which the user came (from which arbitrageur and thanks to which channel of attraction). Accordingly, when a user on the advertiser's site performs the necessary action, we will know which arbitrageur should be credited for this conversion (to whom to pay money).
 
-Choosing the right offerer is not an easy task. You need to know your audience (your traffic) and have a good understanding of which specific users will be paid for. What is the category of the offerer and how suitable it is for the traffic? What geo (geography: country, language) is the banner designed for, and what geo is the traffic? What topics should the user be interested in in order to take the necessary action? And so on.
-
-How to understand all these questions for a beginner arbitrageur, if he already has traffic, but has no experience?
 
 Smart-Link is a machine learning service that allows you to select a wide group of offers and automatically identify those that will convert best (and/or bring the most money) for the given traffic. Accordingly, an arbitrageur directs his traffic not to 1 specific offer, but to several of them at once.
 
-## 1. Random Sampler
+## 1. Random Sampler 
 
 Let's start with the simplest model: we'll show random banners for any click that comes in. Our model consists of two stages: candidate selection (those offers that the user can physically go to and subscribe to, depending on their geography, device, source, etc.) and offer selection (what we will implement).
 
@@ -87,9 +79,7 @@ Implement the simplest multi-armed bandit algorithm, called epsilon-greedy, whic
 
 ![Alt text](/img/image-1.png)
 
-## 4. Regret
-
-Congratulations, you've just implemented your Reinforcement Learning algorithm!
+## 4. UCB / Thompson sampling
 
 Finally, the final step. What if we implement something even smarter than switching between the two extremes?
 
