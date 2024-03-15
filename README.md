@@ -9,6 +9,7 @@ We help both to find each other.
 2. Greedy Sampler
 3. ε-Greedy Sampler
 4. UCB / Thompson sampling
+5. [A/B-testing](https://github.com/apovalov/CPA_SmartLinking_AB)
 
 ## Smart Campaign
 
@@ -100,3 +101,7 @@ Good solution is UCB algorithm or Thompson sampling.
 ![Alt text](/img/image-2.png)
 
 UCB-algorithm estimates not the average win, but the one with the maximum upper confidence bound. The confidence interval is wider the larger the uncertainty is (the less we try some handle).
+
+
+Then we can try more variants and through [A/B-tests](https://github.com/apovalov/CPA_SmartLinking_AB) choose a suitable variant.
+
